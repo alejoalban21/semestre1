@@ -24,6 +24,4 @@ public class CuentaBancaria {
                                          numeroCuenta + " saldo: " + saldo + "]";
     }
 
-    
-
 }

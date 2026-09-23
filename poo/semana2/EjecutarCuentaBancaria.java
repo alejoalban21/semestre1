@@ -11,4 +11,5 @@ public class EjecutarCuentaBancaria {
         //Mostrar el objeto después de la consignación
         System.out.println(objCuenta1);
   }
+  
 }
