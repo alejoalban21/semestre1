@@ -1,5 +1,4 @@
-package semana4;
-public class EjecutarCuentaBancaria {
+ ublic class EjecutarCuentaBancaria {
     
   public static void main(String[] args){
 

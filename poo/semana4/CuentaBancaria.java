@@ -1,4 +1,3 @@
-package semana4;
 public class CuentaBancaria {
     //Atributos
     private int id;
