@@ -14,14 +14,27 @@ public class CuentaBancaria {
     }
 
     //Método consignar
-    public double consignar(double valor){
-        double total = saldo + valor;
-        return total;
+    public void consignar(double valor){
+       saldo = saldo + valor;
     }
 
+    //Método retirar
+    public void retirar(double valor){
+       
+      if ( valor>saldo){
+        System.out.println("saldo insuficiente");
+
+    } else {
+        saldo = saldo- valor;
+    }
+}
+
+public double consultarSaldo(){
+    return saldo;
+}
+
     public String toString(){
-        return "CuentaBancaria [ id: " + id + " titular: " + titular + " numeroCuenta: " + 
-                                         numeroCuenta + " saldo: " + saldo + "]";
+        return "CuentaBancaria [ id: " + id + " titular: " + titular + " numero Cuenta: " + numeroCuenta + " saldo: " + saldo + "]";
     }
 
 }
