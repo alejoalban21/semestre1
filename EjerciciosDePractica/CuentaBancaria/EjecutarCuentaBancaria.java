@@ -7,7 +7,7 @@
         //Mostrar el objeto en su estado inicial
         System.out.println(Cuenta1);
         //Consignando 1000.0 a la cuenta 
-        System.out.println("Total de la cuenta: " + Cuenta1.consignar(1000.0));
+        //System.out.println("Total de la cuenta: " + Cuenta1.consignar(1000.0));
         //Mostrar el objeto después de la consignación
         System.out.println(Cuenta1);
   }
