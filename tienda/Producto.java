@@ -1,4 +1,4 @@
-package Semana6;
+package tienda;
 
 public class Producto {
 

@@ -1,20 +1,17 @@
 public class MainInv {
     public static void main(String[] args) throws Exception {
-        
-        //Creación del arreglo
-        int[] a = {6, 5, 9, 1, 8, 3, 2};
-        
-        //Recorrer y mostrar el arreglo
-        for(int i = 0; i < a.length; i++){
-            System.out.println("a[" + i + "]=" + a[i]);
-        }
-        
-        //sumar los elementos del arreglo
-        int sumaArreglo = 0;
-        for(int i = 0; i < a.length; i++){
-            sumaArreglo += a[i];
-        }
-        System.out.println("La suma del arreglo es: " + sumaArreglo);
-    }
+      //creacion arreglo de objetos
+      Trabajador[] t = new Trabajador [3];
+      //creacion del objeto Operario o Vendedor y asignado a la posicion del arreglo
+      t[0] = new Operario(123456, "Juan", 1000, 120);   
+      t[1] = new Vendedor(234567, "Pedro", 2000, 21.1);   
+      t[2] = new Operario(345678, "Maria", 1500, 60);   
+for (int i = 0; i < t.length; i++){
+   System.out.println("salario a pagar de " + t[i].getNombre() + " es: " + t[i].pagar());
 }
 
+
+
+
+    }
+   }
