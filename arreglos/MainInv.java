@@ -1,4 +1,4 @@
-public class Main {
+public class MainInv {
     public static void main(String[] args) throws Exception {
         
         //Creación del arreglo
