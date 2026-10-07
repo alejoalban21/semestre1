@@ -1,4 +1,4 @@
-public class main {
+public class mainEstudiamtes {
     public static void main(String[] args) {
 
   // crear estudiate 1 con caracteristicas definidas y luego mostrarlo en pantalla
