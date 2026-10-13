@@ -1,4 +1,4 @@
-public class MainInv {
+epublic class MainInv {
     public static void main(String[] args) throws Exception {
       //creacion arreglo de objetos
       Trabajador[] t = new Trabajador [3];
