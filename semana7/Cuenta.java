@@ -5,8 +5,6 @@ public class Cuenta {
     private String titular;
     private double saldo;
 
-   
-
     public Cuenta(String numeroCuenta, String titular, double saldo) {
         this.numeroCuenta = numeroCuenta;
         this.titular = titular;
@@ -22,13 +20,16 @@ public class Cuenta {
                 '}';
     }
 
-   public void consignar (double valor) {
-    saldo+=valor;
-    System.out.println("se consigno: " + valor);
-    if (saldo<0){
-        System.out.println("saldo insuficiente");
+    public void consignar(double valor) {
+        saldo += valor;
+        System.out.println("se consigno: " + valor);
+        if (saldo < 0) {
+            System.out.println("saldo insuficiente");
+        }
     }
 
-   } 
-    
+    public double getSaldo() {
+        return saldo;
+    }
+
 }

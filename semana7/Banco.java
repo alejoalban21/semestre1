@@ -10,7 +10,14 @@ public class Banco {
         this.direccion = direccion;
         this.cuenta = cuenta;
     }
-    public void abrirCuenta(Cliente cliente){
+
+    public void abrirCuenta(Cliente cliente) {
         System.out.println("Apertura de cuenta: " + cliente);
     }
+
+    @Override
+    public String toString() {
+        return "Banco [nombre=" + nombre + ", direccion=" + direccion + ", cuenta=" + cuenta + "]";
+    }
+
 }

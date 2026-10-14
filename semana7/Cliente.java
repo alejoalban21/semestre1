@@ -4,9 +4,9 @@ public class Cliente {
     private int identificacion;
     private String nombre;
 
-    public Cliente (int identificacion, String nombre){
-        this.identificacion=identificacion;
-        this.nombre=nombre;
+    public Cliente(int identificacion, String nombre) {
+        this.identificacion = identificacion;
+        this.nombre = nombre;
     }
 
     @Override
@@ -14,6 +14,4 @@ public class Cliente {
         return "Cliente [identificacion=" + identificacion + ", nombre=" + nombre + "]";
     }
 
-    
-    
 }
