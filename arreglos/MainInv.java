@@ -1,4 +1,4 @@
-epublic class MainInv {
+public class MainInv {
     public static void main(String[] args) throws Exception {
       //creacion arreglo de objetos
       Trabajador[] t = new Trabajador [3];
@@ -11,7 +11,7 @@ for (int i = 0; i < t.length; i++){
 }
 
 
-
+ 
 
     }
    }
